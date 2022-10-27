@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToggleForm</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="toggle-form">
+            <div class="toggle-form-row">
+                <div class="inner in">
+                    <form method = "POST" class="sign-in-form">
+                        <div class="sign-in-title">sign in</div>
+                        <input class = "form-input" type="text" name = "email" placeholder="Email">
+                        <input class = "form-input" type="password" name = "password" placeholder="Password">
+                        <button class = "btn" type = "submit">sign in</button>
+                    </form>
+                </div>
+                <div class="inner up">
+                    <form method = "POST" class="sign-up-form">
+                        <div class="sign-up-title">sign up</div>
+                        <input class = "form-input" type="text" name = "username" placeholder="User">
+                        <input class = "form-input" type="text" name = "email" placeholder="Email">
+                        <input class = "form-input" type="password" name = "password" placeholder="Password">
+                        <button class = "btn" type = "submit">sign up</button>
+                    </form>
+                </div>
+                <div class="toggle inner">
+                    <button type = "button" class = "btn">sign in</button>
+                </div>
+            </div>
+            <button class="touch-toggle">sign up</button>   
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
